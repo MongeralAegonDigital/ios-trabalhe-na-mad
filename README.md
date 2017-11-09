@@ -23,16 +23,16 @@ Criar um aplicativo para consultar a API do GitHub e trazer os repositórios mai
 - Exibir os dados do CoreData caso o app esteja offline
 - Usar Storyboard
 - Framework para Comunicação com API. Ex: Alamofire
-- Mapeamento json -> Objeto . Ex: Gloss
+- Mapeamento json -> Objeto . Ex: ObjectMapper ou Codable (Swift 4)
 
 ##### Pleno #####
 - Todos de Junior
 - Utilizar AutoLayout (Constraints SizeClasses)
 - App Universal iPhone | Ipad
 - Testes unitários no projeto. Ex: XCTests
-- Utilizar MVC
 - Isolar chamadas de rede
 - Comentários
+- SOLID Principles
 
 ##### Sênior #####
 - Todos os de Pleno e Junior
@@ -41,6 +41,7 @@ Criar um aplicativo para consultar a API do GitHub e trazer os repositórios mai
 
 ### Sugestões ###
 As sugestões de bibliotecas fornecidas são só um guideline, sintam-se a vontade para usar diferentes e nos surpreenderem. O importante de fato é que os objetivos macros sejam atingidos. :smiley:
+- Utilizar MVVM
 
 ### Processo de submissão ###
 O candidato deverá implementar a solução e enviar um pull request para este repositório com a solução.
