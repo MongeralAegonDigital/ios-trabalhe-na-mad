@@ -1,5 +1,3 @@
-Criar um aplicativo de consulta a API do GitHub.
-
 Criar um aplicativo para consultar a API do GitHub e trazer os repositórios mais populares de Swift. Basear-se no mockup fornecido:
 
 ### Deve conter ###
