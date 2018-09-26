@@ -9,37 +9,35 @@ Criar um aplicativo para consultar a API do GitHub e trazer os repositórios mai
 -    Cada item da lista deve exibir Nome / Foto do autor do PR, Título do PR, Data do PR e Body do PR
 -    Ao tocar em um item, deve abrir no browser a página do Pull Request em questão
 
-### A solução de acordo com o cargo ###
-##### Junior #####
+### Avaliação ###
 
+##### Mínimo #####
 - Configuração
-- Versão mínima do iOS : 9.*
+- Versão mínima do iOS : 11.*
 - App para Iphone
 - Arquivo .gitignore
 - Gestão de dependências no projeto Ex: CocoaPods
 - Persistir os dados no CoreData
-- Exibir os dados do CoreData caso o app esteja offline
-- Usar Storyboard
-- Framework para Comunicação com API. Ex: Alamofire
-- Mapeamento json -> Objeto . Ex: ObjectMapper ou Codable (Swift 4)
+- Exibir os dados mesmo que o app esteja offline
+- Mapeamento json -> Objeto com Codable (Swift 4)
+- Swift 4.*
 
-##### Pleno #####
-- Todos de Junior
-- Utilizar AutoLayout (Constraints SizeClasses)
+##### Ideal #####
+- Todos os de Mínimo
+- Utilizar AutoLayout (Constraints)
 - App Universal iPhone | Ipad
 - Testes unitários no projeto. Ex: XCTests
 - Isolar chamadas de rede
 - Comentários
-- SOLID Principles
+- Demonstrar conhecimento SOLID Principles
+- Sem leaks de memória
 
-##### Sênior #####
-- Todos os de Pleno e Junior
+##### Diferenciais #####
 - App Universal iPhone | iPad | Landscape | Portrait (Size Classes)
 - Testes de interface. Ex: UI Tests
 
 ### Sugestões ###
 As sugestões de bibliotecas fornecidas são só um guideline, sintam-se a vontade para usar diferentes e nos surpreenderem. O importante de fato é que os objetivos macros sejam atingidos. :smiley:
-- Utilizar MVVM
 
 ### Processo de submissão ###
 O candidato deverá implementar a solução e enviar um pull request para este repositório com a solução.
@@ -50,7 +48,7 @@ O processo de Pull Request funciona da seguinte maneira:
 
 3. Commitará e subirá as alterações para o SEU fork.
 
-4. Pela interface do Bitbucket, irá enviar um Pull Request.
+4. Pela interface do GitHub, irá enviar um Pull Request.
 
 Se possível deixar o fork público para facilitar a inspeção do código.
 
